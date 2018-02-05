@@ -5,7 +5,7 @@
 define( 'DB_HOST', 'localhost' );
 define( 'DB_USER', 'root' );
 define( 'DB_MDP', '' );
-define( 'DB_SELECT', 'site' );
+define( 'DB_SELECT', 'blog' );
 
 
 
