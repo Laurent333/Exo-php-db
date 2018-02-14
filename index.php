@@ -9,8 +9,10 @@ include_once( 'sources/commentaires/commentaires.php' );
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 	<title>PHP - PHP-MySQL</title>
 	<link href="css/style.css" rel="stylesheet" type="text/css" />
+	<link href="css/custom.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
+    <?php if (isset($process)) displayProcessResultMessage($process); ?>
 	<div id="page">
 		<div id="header">
 			<?php include( 'header.inc.php' ); ?>
@@ -41,3 +43,4 @@ include_once( 'sources/commentaires/commentaires.php' );
 </div>
 </body>
 </html>
+<script src="sources/custom.js"></script>
